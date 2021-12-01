@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Nombre"
+            />
+
+        <EditText
+            android:id="@+id/edRegName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Nombre"
+
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            android:autofillHints=""/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Apellidos"
+            />
+
+        <EditText
+            android:id="@+id/edRegLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Apellidos"
+
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sexo"
+            />
+
+        <Spinner
+            android:id="@+id/edRegSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:entries="@array/sexo"
+
+            android:hint=""
+            android:layout_margin="10dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Direccion"
+            />
+
+        <EditText
+            android:id="@+id/edRegAdress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Direcion"
+            android:layout_margin="10dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Correo Electronico"
+            />
+
+        <EditText
+            android:id="@+id/edRegEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Correo"
+            android:layout_margin="10dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Foto"
+            />
+
+        <ImageView
+            android:id="@+id/edFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_margin="10dp"
+            android:minWidth="80dp"
+            android:minHeight="80dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Nombre de Usuario"
+            />
+
+        <EditText
+            android:id="@+id/edRegUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Usuario"
+            android:layout_margin="10dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Contraseña"
+            />
+
+        <EditText
+            android:id="@+id/edRegUserPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:layout_margin="10dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Ciudad"
+            />
+
+        <EditText
+            android:id="@+id/edRegCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ciudad"
+            android:layout_margin="10dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Celular"
+            />
+
+        <EditText
+            android:id="@+id/edRegCellphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Celular"
+            android:layout_margin="10dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"/>
+
+
+        </LinearLayout>
+
+
+</ScrollView>
+
